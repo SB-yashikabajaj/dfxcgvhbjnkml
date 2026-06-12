@@ -10,6 +10,11 @@ paths:
   '/users/{userId}':
     parameters:
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -95,6 +100,13 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: a7okakxfmdg4z
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses: {}
+      operationId: post-users-userId
+      x-stoplight:
+        id: mv389cpndnkgw
   /user:
     post:
       summary: Create New User
@@ -151,6 +163,76 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: 36sek750blgu4
+  '/fdrghj/dfghjk/{gthjkl}/tfghjkl{fghjk}':
+    parameters:
+      - schema:
+          type: string
+        name: gthjkl
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: fghjk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gthjkl
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: fghjk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gthjkl
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: fghjk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gthjkl
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: fghjk
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-fdrghj-dfghjk-gthjkl-tfghjkl-fghjk
+      x-stoplight:
+        id: 1r2mlmkva2mig
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses: {}
+      operationId: post-fdrghj-dfghjk-gthjkl-tfghjkl-fghjk
+      x-stoplight:
+        id: m0v5sze4kr17q
+    patch:
+      summary: Your PATCH endpoint
+      tags: []
+      responses: {}
+      operationId: patch-fdrghj-dfghjk-gthjkl-tfghjkl-fghjk
+      x-stoplight:
+        id: 3gqr08m7v12fw
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: head-fdrghj-dfghjk-gthjkl-tfghjkl-fghjk
+      x-stoplight:
+        id: rz6rjs5g1eqlw
 components:
   schemas:
     User:
